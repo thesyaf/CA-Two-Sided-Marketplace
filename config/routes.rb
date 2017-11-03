@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   resources :profiles
+  resources :charges
+
   root 'home#index'
 
   devise_for :users
